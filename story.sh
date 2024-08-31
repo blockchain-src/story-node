@@ -221,11 +221,6 @@ function set_withdrawal_address() {
 # 主菜单
 function main_menu() {
     clear
-    echo "脚本以及教程由推特用户大赌哥 @y95277777 编写，免费开源，请勿相信收费"
-    echo "============================Artela节点安装===================================="
-    echo "节点社区 Telegram 群组:https://t.me/niuwuriji"
-    echo "节点社区 Telegram 频道:https://t.me/niuwuriji"
-    echo "节点社区 Discord 社群:https://discord.gg/GbMV5EcNWF"
     echo "请选择要执行的操作:"
     echo "1. 安装Story节点"
     echo "2. 清除状态并重新初始化"
