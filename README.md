@@ -14,7 +14,7 @@ git clone https://github.com/blockchain-src/story-node.git && cd story-node
 ```
 chmod +x story.sh && ./story.sh
 ```
-一键脚本自动安装缺失的软件包、安装story节点、配置钱包、设置验证器等。
+一键脚本自动安装缺失的软件包、安装story节点、配置钱包（最好使用有测试网交互记录的钱包）、设置验证器等。
 
 ---
 
