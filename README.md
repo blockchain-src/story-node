@@ -1,2 +1,9 @@
+1️⃣克隆 github 仓库
+```
+git clone https://github.com/blockchain-src/story-node.git
+```
 
-wget -O story.sh https://raw.githubusercontent.com/moncici007/story/main/story.sh && chmod +x story.sh && ./story.sh
+2️⃣运行一键脚本：安装缺失的依赖项和运行节点
+```
+chmod +x story.sh && ./story.sh
+```
