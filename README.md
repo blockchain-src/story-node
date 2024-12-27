@@ -5,12 +5,12 @@
 sudo -i
 ```
 ---
-## 1️⃣克隆 github 仓库
+## 1️⃣克隆
 ```
 git clone https://github.com/blockchain-src/story-node.git && cd story-node
 ```
 ---
-## 2️⃣运行一键脚本：安装缺失的依赖项和运行节点
+## 2️⃣执行一键脚本
 ```
 chmod +x story.sh && ./story.sh
 ```
@@ -18,4 +18,4 @@ chmod +x story.sh && ./story.sh
 
 ---
 
-详细教程视频🎦https://www.youtube.com/watch?v=TEBUa7luvaQ&t=162s
+详细视频教程🎦https://www.youtube.com/watch?v=TEBUa7luvaQ&t=162s
