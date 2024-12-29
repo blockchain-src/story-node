@@ -10,7 +10,7 @@ fi
 # 安装必要的依赖
 function install_dependencies() {
     apt update && apt upgrade -y
-    apt install curl wget jq make gcc nano -y
+    apt install curl wget jq xclip make gcc nano python3-pip && pip3 install requests
 }
 
 # 安装 Node.js 和 npm
