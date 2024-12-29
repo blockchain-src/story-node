@@ -5,12 +5,12 @@
 sudo -i
 ```
 ---
-## 1️⃣克隆
+## 2️⃣克隆
 ```
 git clone https://github.com/blockchain-src/story-node.git && cd story-node
 ```
 ---
-## 2️⃣执行一键脚本
+## 3️⃣执行一键脚本
 ```
 chmod +x story.sh && ./story.sh
 ```
